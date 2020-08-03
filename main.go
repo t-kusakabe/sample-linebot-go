@@ -49,9 +49,9 @@ type Content struct {
 
 // Const ...
 const (
-	EndPoint  = "https://trialbot-api.line.me"
-	ToChannel = 1234
-	EventType = "1234"
+	EndPoint  = "https://line-bot-golang-test.herokuapp.com/"
+	ToChannel = 1654607450
+	EventType = "138311608800106203"
 )
 
 func main() {
