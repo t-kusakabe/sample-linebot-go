@@ -11,8 +11,8 @@ import (
 
 func main() {
 	bot, err := linebot.New(
-		os.Getenv("CANNEL_SECRET"),
-		os.Getenv("CHANNEL_TOKEN"),
+		os.Getenv("LINE_CHANNEL_SECRET"),
+		os.Getenv("LINE_CHANNEL_ACCESS_TOKEN"),
 	)
 	if err != nil {
 		log.Fatal(err)
